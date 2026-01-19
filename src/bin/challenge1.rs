@@ -3,7 +3,7 @@ use std::io;
 fn main() {
     println!("Enter the desired numerical value.");
 
-    let mut number_input = ระString::new(); 
+    let mut number_input = String::new(); 
 
     io::stdin()
         .read_line(&mut number_input)
